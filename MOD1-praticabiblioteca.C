@@ -1,0 +1,38 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+#define MAX_LIVROS 50
+#define TAM_LIVROS 100
+
+
+struct Livro {
+    char nome [TAM_STRING];
+    char autor [TAM_STRING];
+    char editora[TAM_STRING];
+    int edicao
+    };
+
+    void limparBufferEntrada(){
+        int C;
+        while ((c = getchar()) != '\n' && c != EOF);
+    }
+        
+int main (){
+    struct Livro biblioteca[MAX_LIVROS];
+    int totallivros = 0;
+    int opcao;
+
+    do{
+        printf("================================");
+        printf("    BIBLIOTECA - PARTE 1 \n");
+        printf("================================");
+        printf("1 - CADASTRAR NOVO LIVRO \n");
+        printf("2 - LISTAR TODOS OS LIVROS \n");
+
+    }
+    
+}
+    }
